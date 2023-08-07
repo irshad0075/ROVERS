@@ -1,0 +1,53 @@
+/* Newsletter Start */
+.newsletter {
+  background: url(../assets/Images/newletter.png) no-repeat;
+  background-size: 100% auto; /* Adjust the background size */
+  background-position: center;
+  text-align: center;
+  padding: 4rem 0; /* Add some padding for better spacing */
+}
+
+.newsletter h3 {
+  color: #fff;
+  font-size: 2.5rem; /* Reduce the font size slightly */
+}
+
+.newsletter p {
+  font-size: 1.5rem;
+  color: #ccc;
+  padding: 1rem 0;
+  margin-bottom: 3rem; /* Add more spacing between the text and the form */
+}
+
+.newsletter form {
+  height: 5rem;
+  max-width: 60rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(61, 60, 60, 0.1); /* Use rgba() to specify box-shadow color */
+  display: flex;
+  align-items: center; /* Center the items vertically */
+  margin: 0 auto; /* Center the form horizontally */
+  overflow: hidden;
+}
+
+.newsletter form input[type="email"] {
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  text-transform: none;
+  border: none; /* Remove the border to make it cleaner */
+}
+
+.newsletter form input[type="submit"] {
+  font-size: 1.7rem;
+  height: 100%;
+  width: 17rem;
+  background:  #020c79;
+  color: #ffffff; /* Add text color to the button */
+  border: none;
+  cursor: pointer;
+  outline: none; /* Remove the default focus outline */
+}
+/* Newsletter End */

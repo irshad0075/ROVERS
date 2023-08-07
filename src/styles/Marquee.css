@@ -1,0 +1,53 @@
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 20s linear infinite;
+  gap: 15px; /* Add some space between sale-containers */
+}
+
+.marquee-content img {
+  width: 300px; /* Decrease the width of the sale-containers */
+  border: 1px solid rgb(84, 84, 84);
+  height: 200px; /* Decrease the height of the sale-containers */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.sale-container{
+  width: 100%;
+  /* margin-top: -12%; */
+}
+
+.sale-container {
+  width: 100%;
+  height: 720px; 
+  overflow: hidden;
+  margin-top: -10%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative; 
+}
+
+.sale-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 2s linear; /* Add transition for smooth animation */
+}
+
+.sale-container:hover img {
+  animation: animate 2s linear; /* Apply animation on hover */
+}

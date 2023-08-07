@@ -1,0 +1,114 @@
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: 1px solid #10015c;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .container {
+    margin-top: 10px;
+
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .row {
+    margin: -15px;
+  }
+  
+  .col-md-3 {
+    padding: 15px;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .bg-danger {
+    border: 2px solid #10015c;
+  }
+  
+  .bg-danger:hover {
+    background-color: #10015c;
+  }
+  
+  /* cardStyle.css */
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.categories-container {
+  height: 450px; /* Adjust the height as needed */
+  overflow-y: auto;
+  width: 20%;
+
+  
+}
+
+.categories-scroll {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-item {
+  margin-bottom: 10px;
+}
+
+/* Set the width and height of the scroll bar thumb */
+.categories-container::-webkit-scrollbar-thumb {
+  background-color: #10015c;
+  border-radius: 16px;
+  margin-left: 1%;
+
+}
+
+/* Set the background color of the scroll bar track */
+.categories-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Set the color and width of the scroll bar track */
+.categories-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Apply the styles for Firefox */
+.categories-container {
+  scrollbar-color: rgb(0, 0, 0) transparent;
+  scrollbar-width: thin;
+
+  margin-right: 20px; /* Add margin to create space between categories and Carousel */
+}
+
+.carousel-container {
+  width: 1000px; /* Adjust the width as needed */
+  margin-right: 20px; /* Add margin to create space between the Carousel and categories */
+}
+
+.carousel-image {
+  height: 450px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the entire Carousel item */
+}
+

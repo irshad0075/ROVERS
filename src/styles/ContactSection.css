@@ -1,0 +1,80 @@
+/* Contact Form Start */
+.contact-container {
+  padding: 0 1rem; /* Add space from left and right of the page */
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact iframe {
+  flex: 1 1 42rem;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.contact form {
+  flex: 1 1 42rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ddd;
+  text-align: center;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  
+}
+
+.contact h1.heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contact form .box {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  text-transform: none;
+  border: 2px solid #04045f;
+  font-size: 1.6rem;
+  margin: 0.7rem 0;
+}
+
+.contact form textarea {
+  resize: none;
+  height: 12rem;
+}
+
+.contact button.btn {
+  background-color: #04045f;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button.btn:hover {
+  background-color: #3d3d3d;
+}
+
+/* Contact Form End */
